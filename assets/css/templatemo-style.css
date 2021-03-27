@@ -415,7 +415,7 @@ button:hover {
     transition: all 0.5s;
 }
 
-.service-item:hover {
+.service-item:hover, .col-sm-12.col-md-12:hover {
     background-color: rgba(250, 250, 250, 1);
 }
 
@@ -821,10 +821,6 @@ section.contact-me {
     margin-top: 36px;
 }
 
-img.GuardianPanda {
-    width: auto;
-}
-
 .mailto-link {
 	position: relative;
 	padding: 8px 0;
@@ -897,3 +893,41 @@ input {
 	&:focus {
 		box-shadow: 0 0 3px 0 #b17b22;}
 }
+
+.container .row {
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-top: 20px;
+}
+
+.container {
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1170px;
+    width: 90%;
+    position: relative;
+}
+
+.col-sm-12.col-md-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgba(250, 250, 250, 0.1);
+    transition: all 0.5s;}
+
+.skill-right {
+    padding-top: 30px;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.col-xs-2 {
+    width: 16.66666667%;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+
