@@ -296,7 +296,7 @@ html {
 
 .section-heading {
     text-align: center;
-    padding: 70px 45px;
+    padding: 50px 45px;
     color: white;
 }
 
@@ -939,4 +939,9 @@ i.fa.fa-file {
 
 i:hover {
     color: white;
+}
+
+.left-image-post {
+    border-top: 2px solid rgba(250, 250, 250, 0.1);
+    padding-top: 40px;
 }
