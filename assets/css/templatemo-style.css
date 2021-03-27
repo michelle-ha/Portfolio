@@ -936,3 +936,7 @@ i.fa.fa-file {
     font-size: 30px;
     padding-bottom: 15px;
 }
+
+i:hover {
+    color: white;
+}
