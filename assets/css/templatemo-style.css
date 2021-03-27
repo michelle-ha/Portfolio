@@ -811,3 +811,9 @@ section.contact-me {
         margin-bottom: 20px;
     }
 }
+
+.right-pic {
+    width: auto;
+    height: 220px;
+    margin-top: 36px;
+}
