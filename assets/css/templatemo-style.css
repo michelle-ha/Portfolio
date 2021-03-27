@@ -549,10 +549,12 @@ section.my-work .section-heading {
 }
 
 figure.snip1321 {
-  overflow: hidden;
+  /* overflow: hidden; */
   text-align: center;
   -webkit-perspective: 50em;
   perspective: 50em;
+  height: 395px;
+    width: auto;
 }
 figure.snip1321 * {
   -webkit-box-sizing: padding-box;
@@ -816,4 +818,8 @@ section.contact-me {
     width: auto;
     height: 220px;
     margin-top: 36px;
+}
+
+img.GuardianPanda {
+    width: auto;
 }
