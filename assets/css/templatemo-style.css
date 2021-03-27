@@ -405,6 +405,8 @@ button:hover {
     padding: 50px;
     background-color: rgba(250, 250, 250, 0.1);
     transition: all 0.5s;
+    min-height: 500px;
+    min-inline-size: -webkit-fill-available;
 }
 
 .service-item h4 {
