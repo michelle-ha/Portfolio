@@ -31,6 +31,8 @@ https://templatemo.com/tm-531-reflux
     <link rel="stylesheet" href="assets/css/templatemo-style.css" />
     <link rel="stylesheet" href="assets/css/owl.css" />
     <link rel="stylesheet" href="assets/css/lightbox.css" />
+    <link rel="stylesheet" href="assets/css/contact-form.css">
+
 
   </head>
 
@@ -390,6 +392,36 @@ https://templatemo.com/tm-531-reflux
             <h2>Contact Me</h2>
             <br>
 
+            <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+        
+              <div class="fcf-form-group">
+                  <label for="Name" class="fcf-label">Your name</label>
+                  <div class="fcf-input-group">
+                      <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                  </div>
+              </div>
+      
+              <div class="fcf-form-group">
+                  <label for="Email" class="fcf-label">Your email address</label>
+                  <div class="fcf-input-group">
+                      <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                  </div>
+              </div>
+      
+              <div class="fcf-form-group">
+                  <label for="Message" class="fcf-label">Your message</label>
+                  <div class="fcf-input-group">
+                      <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                  </div>
+              </div>
+      
+              <div class="fcf-form-group">
+                  <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+              </div>
+      
+          </form>
+          <br>
+
             <h5 style="color: white; font-size: 18px">Email</h5> <h5>michellesandyha@gmail.com <a href="mailto:michellesandyha@gmail.com"> <i class="fa fa-clipboard" style="padding-left: 7px;"></i></a></h5>  
               <br>
               <a href="/assets/Resume.pdf"><h5 style="color: white;
@@ -467,7 +499,7 @@ function copyToClipboard(text) {
     document.execCommand('copy');
     document.body.removeChild(dummy);
 }
-      //according to loftblog tut
+      according to loftblog tut
       $(".main-menu li:first").addClass("active");
 
       var showSection = function showSection(section, isAnimate) {
