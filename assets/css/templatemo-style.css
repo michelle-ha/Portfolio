@@ -157,7 +157,7 @@ html {
 }
 
 .menu .social-network {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .menu .social-network ul li {
@@ -945,4 +945,13 @@ i:hover {
 .left-image-post {
     border-top: 2px solid rgba(250, 250, 250, 0.1);
     padding-top: 40px;
+}
+
+i.fa.fa-clipboard:hover {
+    color: white;
+    cursor: pointer;
+}
+
+i.fa.fa-clipboard {
+    color: black
 }
